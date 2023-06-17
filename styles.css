@@ -1,0 +1,103 @@
+    /* CSS stylings.. */
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(231, 231, 219);
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+    .container {
+      border: 1px solid saddlebrown;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    
+
+    .segment {
+      margin-bottom: 30px;
+      margin: 25px;
+      border: 10px solid black;
+      height: 100vh;
+    }
+    .segcontainer{
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .segment-title {
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: underline;
+      margin-left: 20%;
+    }
+
+    .sub-segment {
+      margin: 25px;
+      border: 1px solid rgb(61, 27, 27);
+      padding: 20px;
+    }
+    .subseg{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .news-feed {
+      background-color: #f1f1f1;
+      padding: 20px;
+      height: 25vh;
+      margin: 23px;
+    }
+
+    .events {
+      background-color: #eee;
+      padding: 20px;
+      height: 25vh;
+      margin: 23px;
+    }
+
+    .jobs {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border: 1px solid wheat;
+      height: 25vh;
+      margin: 23px;
+    }
+
+    .blog-card {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .blog-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .blog-author {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .blog-content {
+      margin-top: 10px;
+      color: #333;
+    }
+ 
